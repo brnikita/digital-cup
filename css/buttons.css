@@ -1,0 +1,29 @@
+.button {
+    display: block;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.button-big {
+    height: 67px;
+    line-height: 67px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.button-transparent {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.button-grey {
+    background: #efd8e2;
+    color: #000;
+}
