@@ -8,10 +8,7 @@
 }
 
 .start-screen-header__logo {
-    width: 153px;
-    height: 137px;
     float: left;
-    background-position: 0 -243px;
 }
 
 .start-screen-header__title {
@@ -54,18 +51,14 @@
 .start-screen-welcome__previous,
 .start-screen-welcome__next {
     position: absolute;
-    width: 43px;
-    height: 43px;
     top: 187px;
 }
 
 .start-screen-welcome__previous {
-    background-position: -99px -194px;
     left: -21px;
 }
 
 .start-screen-welcome__next {
-    background-position: -100px -148px;
     right: -19px;
 }
 

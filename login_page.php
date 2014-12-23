@@ -4,22 +4,15 @@
 <body>
 <div style="background: url('images/stuff/digital-cup.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -74px; left: 50%; margin-left: -319px; opacity: 0.5;display: none;"></div>
 <div class="content bg-start">
-    <header class="start-screen-header clearfix">
-        <a href="/" class="start-screen-header__logo sprite icon icon-big-logo"></a>
+    <? include('blocks/header.php'); ?>
 
-        <div class="start-screen-header__title">
-            <h2>McGrath Foundation</h2>
-
-            <h1>Digital Cup</h1>
-        </div>
-    </header>
-    <main class="start-screen-content">
+    <main class="white-screen">
         <section class="start-screen-welcome">
             <div class="ribbon">
                 <h3>WELCOME TO THE GAME</h3>
             </div>
-            <a href="#" class="sprite icon icon-previous start-screen-welcome__previous"></a>
-            <a href="#" class="sprite icon icon-next start-screen-welcome__next"></a>
+            <a href="#" class="sprite start-screen-welcome__previous"></a>
+            <a href="#" class="sprite start-screen-welcome__next"></a>
 
             <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit, phasellus maximus.</p>
         </section>
@@ -35,9 +28,6 @@
             <a href="#" class="button button-big button-grey">ABOUT MCGRATH FOUNDATION</a>
         </section>
     </main>
-    <footer class="start-screen-footer">
-        <a href="#">VIEW SCOREBOARD</a>
-    </footer>
 </div>
 </body>
 </html>

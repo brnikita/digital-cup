@@ -28,3 +28,10 @@ body {
     width: 640px;
     margin: 0 auto;
 }
+
+.white-screen {
+    background: #fff;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+    -moz-box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+    box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+}

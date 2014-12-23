@@ -1,0 +1,25 @@
+.icon {
+    display: inline-block;
+}
+
+.icon-logo {
+
+}
+
+.icon-big-logo {
+    width: 153px;
+    height: 137px;
+    background-position: 0 -243px;
+}
+
+.icon-previous {
+    width: 43px;
+    height: 43px;
+    background-position: -99px -194px;
+}
+
+.icon-next {
+    width: 43px;
+    height: 43px;
+    background-position: -100px -148px;
+}
