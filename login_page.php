@@ -2,30 +2,37 @@
 <html>
 <? include('blocks/head.php'); ?>
 <body>
-<div style="background: url('images/stuff/digital-cup.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -74px; left: 50%; margin-left: -319px; opacity: 0.5;display: none;"></div>
-<div class="content bg-start">
+<div
+    style="background: url('images/stuff/digital-cup-login.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 50%; margin-left: -320px; opacity: 0.5;display: none;"></div>
+<div class="content">
     <? include('blocks/header.php'); ?>
 
-    <main class="white-screen">
-        <section class="start-screen-welcome">
-            <div class="ribbon">
-                <h3>WELCOME TO THE GAME</h3>
-            </div>
-            <a href="#" class="sprite start-screen-welcome__previous"></a>
-            <a href="#" class="sprite start-screen-welcome__next"></a>
+    <main class="white-screen login-page">
+        <div class="ribbon">
+            <h3>LOGIN</h3>
+        </div>
+        <section class="white-screen__content">
+            <form class="pink-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email"/>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password"/>
+                </div>
+                <button type="submit" class="button button-black">LOGIN <span class="sprite icon icon-check"></span>
+                </button>
+            </form>
+            <a href="#" class="button button-blue">LOGIN VIA FACEBOOK <span
+                    class="sprite icon icon-facebook"></span></a>
 
-            <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit, phasellus maximus.</p>
-        </section>
-        <section class="start-screen-navigation">
-            <a href="#" class="button button-big button-transparent">CREATE A TEAM</a>
-            <h4>HAVE YOU BEEN INVITED TO JOIN A TEAM?</h4>
-
-            <div class="clearfix start-screen-navigation__join">
-                <a href="#" class="button button-big button-transparent">YES</a>
-                <a href="#" class="button button-big button-transparent">NO</a>
+            <div class="forgot-password">
+                <a href="#">Forgot your password?</a>
             </div>
-            <a href="#" class="button button-big button-transparent">EXISTING USER LOGIN</a>
-            <a href="#" class="button button-big button-grey">ABOUT MCGRATH FOUNDATION</a>
+            <div class="go-back">
+                <a href="#"><span class="sprite icon icon-back"></span>Tap here to go back</a>
+            </div>
         </section>
     </main>
 </div>

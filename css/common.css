@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #000;
     font-family: Tahoma, Helvetica, Arial;
@@ -27,6 +31,7 @@ body {
     background-size: 640px 1036px;
     width: 640px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 .white-screen {
@@ -34,4 +39,41 @@ body {
     -webkit-box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
     -moz-box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
     box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+    width: 576px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.white-screen__content {
+    padding: 45px 39px 30px 39px;
+}
+
+.go-back {
+    text-align: center;
+}
+
+.go-back a {
+    font-weight: bold;
+    color: #ee4399;
+    text-decoration: none;
+    position: relative;
+    padding-left: 25px;
+    letter-spacing: -0.4px;
+}
+
+.go-back a .icon {
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    padding-left: 25px;
 }

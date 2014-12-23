@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: home
- * Date: 23.12.2014
- * Time: 11:29
- */ 
+<header class="small-header clearfix">
+    <a href="/" class="sprite icon icon-logo"></a>
+    <div class="header-title">
+        <h3>McGrath Foundation <strong>Digital Cup</strong></h3>
+        <p>celebrating a decade of making a difference <em>together</em></p>
+    </div>
+</header>

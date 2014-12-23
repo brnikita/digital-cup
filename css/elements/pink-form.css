@@ -1,0 +1,38 @@
+.pink-form {
+    padding-top: 13px;
+}
+
+.pink-form .form-groups-inline .form-group {
+    float: left;
+}
+
+.pink-form .form-group {
+    padding-bottom: 13px;
+}
+
+.pink-form label {
+    display: block;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.pink-form textarea:focus, .pink-form input:focus {
+    outline: 0;
+}
+
+.pink-form select, .pink-form input {
+    box-sizing: border-box;
+    border: 1px solid #eecbdc;
+    width: 100%;
+    color: #ee4399;
+    font-weight: bold;
+    font-size: 24px;
+    height: 46px;
+    padding: 0 14px;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.pink-form button {
+    margin-bottom: 16px;
+}
