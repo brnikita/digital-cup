@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    font-family: Tahoma, Helvetica, Arial;
+    font-size: 24px;
+    color: #000;
+}
+
+.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.sprite {
+    background: url('../images/sprite.png') no-repeat;
+    background-size: 1000px 1000px;
+}
+
+.content {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 640px 1036px;
+    width: 640px;
+    margin: 0 auto;
+}

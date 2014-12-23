@@ -1,0 +1,39 @@
+.ribbon {
+    position: relative;
+}
+
+.ribbon h3 {
+    height: 45px;
+    background-color: #ee4399;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 41px;
+    font-size: 22px;
+    letter-spacing: 4.4px;
+    width: 569px;
+    padding-left: 7px;
+}
+
+.ribbon:before,
+.ribbon:after {
+    position: absolute;
+    background: url('../../images/sprite.png') no-repeat;
+    background-size: 1000px 1000px;
+    width: 67px;
+    height: 51px;
+    content: '';
+}
+
+.ribbon:before {
+    background-position: -123px 0;
+    left: -28px;
+    top: -9px;
+}
+
+.ribbon:after {
+    background-position: -192px 0;
+    right: -29px;
+    top: 1px;
+}

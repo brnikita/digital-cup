@@ -2,8 +2,7 @@
 <html>
 <? include('blocks/head.php'); ?>
 <body>
-<div
-<!--    style="background: url('images/stuff/digital-cup.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -98px; left: 50%; margin-left: -319px; opacity: 0.5;display: none;"></div>-->
+<div style="background: url('images/stuff/digital-cup.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -74px; left: 50%; margin-left: -319px; opacity: 0.5;display: none;"></div>
 <div class="content bg-start">
     <header class="start-screen-header clearfix">
         <a href="/" class="start-screen-header__logo sprite"></a>
@@ -16,7 +15,7 @@
     </header>
     <main class="start-screen-content">
         <section class="start-screen-welcome">
-            <div class="start-screen-welcome__ribbon">
+            <div class="ribbon">
                 <h3>WELCOME TO THE GAME</h3>
             </div>
             <a href="#" class="sprite start-screen-welcome__previous"></a>
