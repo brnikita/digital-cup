@@ -30,7 +30,7 @@
                 <h4>HAVE YOU BEEN INVITED TO JOIN A TEAM?</h4>
 
                 <div class="clearfix start-screen-navigation__join">
-                    <a href="#" class="button button-big button-transparent">YES</a>
+                    <a href="/profile.php" class="button button-big button-transparent">YES</a>
                     <a href="#" class="button button-big button-transparent">NO</a>
                 </div>
                 <a href="/login.php" class="button button-big button-transparent">EXISTING USER LOGIN</a>
