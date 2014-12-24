@@ -17,3 +17,17 @@
 .create-team-page__field-last-name {
     width: 200px;
 }
+
+.create-team-page__upload-photo {
+    margin-top: 12px;
+}
+
+.create-team-page__make-donation {
+    margin-top: 22px;
+    letter-spacing: 0.3px;
+}
+
+.create-team-page__go-back {
+    margin-top: 30px;
+    letter-spacing: 0.1px;
+}

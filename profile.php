@@ -8,7 +8,7 @@
     <div class="content js-content">
         <? include('blocks/header.php'); ?>
 
-        <main class="white-screen create-team-page">
+        <main class="white-screen profile-page">
             <div class="ribbon">
                 <h3>CREATE A TEAM</h3>
             </div>
