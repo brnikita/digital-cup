@@ -25,8 +25,10 @@
                     <button type="submit" class="button button-black">LOGIN <span class="sprite icon icon-check"></span>
                     </button>
                 </form>
-                <a href="#" class="button button-blue">LOGIN VIA FACEBOOK <span
-                        class="sprite icon icon-facebook"></span></a>
+                <a href="#" class="button button-blue">
+                    LOGIN VIA FACEBOOK
+                    <span class="sprite icon icon-facebook"></span>
+                </a>
 
                 <div class="forgot-password">
                     <a href="#">Forgot your password?</a>
