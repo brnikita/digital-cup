@@ -22,10 +22,12 @@
 
 .small-header .header-title strong {
     color: #ff48a4;
+    letter-spacing: 1.5px;
 }
 
-.small-header .header-title p {
-    font-size: 17px;
-    letter-spacing: 0.5px;
-    line-height: 35px;
+.header-title__slogan {
+    width: 427px;
+    height: 20px;
+    background-position: -259px 0;
+    margin: 10px 0 0 -1px;
 }

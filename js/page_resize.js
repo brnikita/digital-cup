@@ -52,6 +52,6 @@ $(function () {
         $wrapper.height(contentHeight * scale);
     }
 
-    resizePage();
-    $window.on('resize', resizePage);
+    //resizePage();
+    //$window.on('resize', resizePage);
 });

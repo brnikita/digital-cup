@@ -3,7 +3,7 @@
 <? include('blocks/head.php'); ?>
 <body>
 <div
-    style="background: url('images/stuff/digital-cup-login.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 50%; margin-left: -320px; opacity: 0.5;display: none;"></div>
+    style="background: url('images/stuff/login.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 50%; margin-left: -320px; opacity: 0.5;display: none;"></div>
 <div class="wrapper js-wrapper">
     <div class="content js-content">
         <? include('blocks/header.php'); ?>
