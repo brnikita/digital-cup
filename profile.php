@@ -48,7 +48,7 @@
                             class="sprite icon icon-photo"></span>
                     </button>
                 </form>
-                <a href="#" class="button button-black profile-page__make-donation">MAKE A DONATION TO JOIN
+                <a href="/player_donation.php" class="button button-black profile-page__make-donation">MAKE A DONATION TO JOIN
                     TEAM <span
                         class="sprite icon icon-go"></span></a>
 

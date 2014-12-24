@@ -58,7 +58,7 @@
                             class="sprite icon icon-photo"></span>
                     </button>
                 </form>
-                <a href="#" class="button button-black create-team-page__make-donation">MAKE A DONATION TO CREATE TEAM <span
+                <a href="/coach_donation.php" class="button button-black create-team-page__make-donation">MAKE A DONATION TO CREATE TEAM <span
                         class="sprite icon icon-go"></span></a>
 
                 <div class="go-back create-team-page__go-back">

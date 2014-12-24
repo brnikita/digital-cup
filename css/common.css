@@ -86,3 +86,35 @@ body {
     text-decoration: none;
     letter-spacing: -0.5px;
 }
+
+.user-avatar {
+    padding-top: 35px;
+}
+
+.user-avatar span {
+    float: left;
+    border: #ee4399 3px solid;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.user-avatar figcaption {
+    padding: 20px 0 0 20px;
+    float: left;
+    font-family: 'Tahoma Bold';
+}
+
+.user-avatar figcaption h2 {
+    font-size: 32px;
+    color: #ee4399;
+    letter-spacing: -0.5px;
+}
+
+.user-avatar figcaption h3 {
+    line-height: 43px;
+    letter-spacing: 2.7px;
+}

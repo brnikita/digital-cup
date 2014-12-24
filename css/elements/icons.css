@@ -31,10 +31,16 @@
     background-position: -95px -29px;
 }
 
+.icon-check-white {
+    height: 27px;
+    width: 27px;
+    background-position: -146px -202px;
+}
+
 .icon-facebook {
     height: 27px;
     width: 27px;
-    background-position: -138px -60px;
+    background-position: -178px -275px;
 }
 
 .icon-back {
