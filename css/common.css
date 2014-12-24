@@ -4,7 +4,7 @@ html, body {
 
 body {
     background-color: #000;
-    font-family: Tahoma, Helvetica, Arial;
+    font-family: 'Tahoma';
     font-size: 24px;
     color: #000;
 }
@@ -26,12 +26,22 @@ body {
     background-size: 1000px 1000px;
 }
 
+.wrapper {
+    overflow: hidden;
+    height: 1036px;
+}
+
 .content {
     background: url(../images/bg.jpg) no-repeat;
     background-size: 640px 1036px;
     width: 640px;
     margin: 0 auto;
-    min-height: 100%;
+    height: 1036px;
+    -ms-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
 }
 
 .white-screen {
@@ -53,7 +63,7 @@ body {
 }
 
 .go-back a {
-    font-weight: bold;
+    font-family: "Tahoma Bold";
     color: #ee4399;
     text-decoration: none;
     position: relative;

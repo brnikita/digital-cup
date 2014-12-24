@@ -1,3 +1,8 @@
+/*Fonts*/
+@import "../fonts/tahoma/fonts.css";
+@import "../fonts/tahoma_bold/fonts.css";
+
+/*Common*/
 @import "reset.css";
 @import "common.css";
 
@@ -10,7 +15,6 @@
 @import "blocks/ribbon.css";
 @import "blocks/header.css";
 @import "blocks/footer.css";
-
 
 /*Pages*/
 @import "pages/start_screen.css";
