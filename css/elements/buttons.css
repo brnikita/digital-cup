@@ -13,7 +13,7 @@
     position: relative;
 }
 
-.button .icon{
+.button .icon {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -51,4 +51,9 @@ button.button {
 .button-blue {
     color: #fff;
     background-color: #425f9e;
+}
+
+.button-pink {
+    color: #fff;
+    background-color: #ee4399;
 }

@@ -26,7 +26,7 @@
                 <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit, phasellus maximus.</p>
             </section>
             <section class="start-screen-navigation">
-                <a href="#" class="button button-big button-transparent">CREATE A TEAM</a>
+                <a href="/create_team.php" class="button button-big button-transparent">CREATE A TEAM</a>
                 <h4>HAVE YOU BEEN INVITED TO JOIN A TEAM?</h4>
 
                 <div class="clearfix start-screen-navigation__join">

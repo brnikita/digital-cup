@@ -1,0 +1,19 @@
+.create-team-page {
+
+}
+
+.create-team-page .pink-form {
+    padding-top: 13px
+}
+
+.create-team-page__field-title {
+    width: 79px;
+}
+
+.create-team-page__field-first-name {
+    width: 203px;
+}
+
+.create-team-page__field-last-name {
+    width: 200px;
+}
