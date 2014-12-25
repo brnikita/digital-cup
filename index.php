@@ -4,7 +4,6 @@
 <body>
 <div
     style="background: url('images/stuff/digital-cup.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -74px; left: 50%; margin-left: -319px; opacity: 0.5;display: none;"></div>
-<div class="wrapper js-wrapper">
     <div class="content bg-start js-content">
         <header class="start-screen-header clearfix">
             <a href="/" class="start-screen-header__logo sprite icon icon-big-logo"></a>
@@ -41,6 +40,5 @@
             <a href="#">VIEW SCOREBOARD</a>
         </footer>
     </div>
-</div>
 </body>
 </html>

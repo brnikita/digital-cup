@@ -2,7 +2,7 @@
 
 $(function () {
     var $window = $(window),
-        $wrapper = $('.js-wrapper'),
+        $wrapper,
         $content = $('.js-content');
 
     /**
@@ -13,35 +13,25 @@ $(function () {
      * @returns {boolean}
      */
     function isMobile() {
-        var userAgent = navigator.userAgent;
-
-        if (/Android/i.test(userAgent)) {
-            return /Mobile/i.test(userAgent);
-        }
-
-        return /webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+        return /Android|webOS|iPad|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
 
     /**
-     * Function makes page's height equal of window height on desktop devices
+     * Function makes page's width equal of window width (for mobiles and tablets)
+     * or height equal of window height (for desktop devices)
      *
      * @function
      * @name resizePage
      * @returns {undefined}
      */
     function resizePage() {
-        var contentHeight,
-            windowHeight,
-            scale;
+        var contentHeight = $content.height(),
+            windowHeight = $window.height(),
+            scale = windowHeight / contentHeight;
 
-        if (isMobile()) {
-            return;
-        }
-
-        contentHeight = $content.height();
-        windowHeight = $window.height();
-        scale = windowHeight / contentHeight;
-
+        $wrapper.css({
+            height: contentHeight * scale
+        });
         $content.css({
             '-ms-transform': 'scale(' + scale + ')',
             '-o-transform': 'scale(' + scale + ')',
@@ -49,9 +39,30 @@ $(function () {
             '-webkit-transform': 'scale(' + scale + ')',
             'transform': 'scale(' + scale + ')'
         });
-        $wrapper.height(contentHeight * scale);
     }
 
-    resizePage();
-    $window.on('resize', resizePage);
+    /**
+     * Function makes screen responsive for differs types of devices
+     *
+     * @function
+     * @name makeResponsive
+     * @returns {undefined}
+     */
+    function makeResponsive() {
+
+        if (isMobile()) {
+            $content.addClass('content-mobile');
+            return;
+        }
+
+        $content.addClass('content-desktop');
+        $wrapper = $('<div>', {'class': 'wrapper js-wrapper'});
+        $content.wrap($wrapper);
+        //Wrap method uses copy of $wrapper
+        $wrapper = $('.js-wrapper');
+        resizePage();
+        $window.on('resize', resizePage);
+    }
+
+    makeResponsive();
 });

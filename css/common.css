@@ -28,13 +28,19 @@ body {
 
 .wrapper {
     overflow: hidden;
-    height: 1036px;
 }
 
 .content {
     background: url(../images/bg.jpg) no-repeat;
-    background-size: 640px 1036px;
+    background-size: 640px 1200px;
     width: 640px;
+}
+
+.content-mobile {
+    min-height: 100%;
+}
+
+.content-desktop {
     margin: 0 auto;
     height: 1036px;
     -ms-transform-origin: center top;
