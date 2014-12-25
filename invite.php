@@ -41,10 +41,10 @@
                     <label for="email">Email Address</label>
                     <input type="email" name="email" id="email"/>
                 </div>
-                <button type="submit" class="button button-pink invite-page__invite">
+                <a href="/success_invite.php" type="submit" class="button button-pink invite-page__invite">
                     INVITE PLAYER
                     <span class="sprite icon icon-check-white"></span>
-                </button>
+                </a>
             </form>
             <a href="#" class="button button-blue invite-page__facebook">
                 INVITE VIA FACEBOOK

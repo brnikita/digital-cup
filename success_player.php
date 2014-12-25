@@ -1,7 +1,41 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: home
- * Date: 25.12.2014
- * Time: 3:35
- */ 
+<!DOCTYPE html>
+<html>
+<? include('blocks/head.php'); ?>
+<body>
+<div
+    style="background: url('images/stuff/success_player.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
+<div class="content js-content">
+    <? include('blocks/header.php'); ?>
+
+    <main class="white-screen success-page">
+        <div class="ribbon">
+            <div class="ribbon__content">SUCCESS</div>
+        </div>
+        <section class="white-screen__content">
+            <div class="success-page__well-done">
+                <span class="sprite icon icon-success"></span>
+
+                <h1>Well done!</h1>
+                <h4>YOU ARE NOW A MEMBER OF</h4>
+            </div>
+            <div class="ribbon big-ribbon">
+                <figure class="user-avatar clearfix">
+                    <span>
+                        <img src="images/avatars/coach.jpg" width="108" height="108" alt="Team photo">
+                    </span>
+                    <figcaption>
+                        <h2>The Mad Batters</h2>
+
+                        <h3>PRO-ACTIVE GAMES</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <a href="#" class="button button-black success-page__dressing-room">
+                GO TO THE DRESSING ROOM
+                <span class="sprite icon icon-go"></span>
+            </a>
+        </section>
+    </main>
+</div>
+</body>
+</html>

@@ -18,6 +18,7 @@
 .success-page__well-done h4 {
     font-family: 'Tahoma Bold';
     letter-spacing: 2.3px;
+    line-height: 26px;
 }
 
 .success-page .user-avatar span {
@@ -29,6 +30,19 @@
     margin-top: 22px;
 }
 
+.success-page__invite-another {
+    margin-top: 40px;
+}
+
 .success-page__team-management {
     margin-top: 23px;
 }
+
+.success-page__go-team-management {
+    margin: 23px 0 11px 0;
+}
+
+.success-page__dressing-room {
+    margin: 23px 0 9px 0;
+}
+
