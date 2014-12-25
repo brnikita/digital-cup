@@ -31,14 +31,14 @@
                         </figcaption>
                     </figure>
                 </div>
-                <button type="submit" class="button button-pink success-page__invite">
+                <a href="/invite.php" class="button button-pink success-page__invite">
                     INVITE PLAYERS
                     <span class="sprite icon icon-players"></span>
-                </button>
-                <button type="submit" class="button button-black success-page__team-management">
+                </a>
+                <a href="#" class="button button-black success-page__team-management">
                     GO TO TEAM MANAGEMENT
                     <span class="sprite icon icon-go"></span>
-                </button>
+                </a>
             </section>
         </main>
     </div>

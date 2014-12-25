@@ -27,10 +27,10 @@
                         <label for="donation">Coach donation <strong>(minimum donation $10.00)</strong></label>
                         <input type="text" name="donation" id="donation" value="$50.00"/>
                     </div>
-                    <button type="submit" class="button button-pink donation-page__donate">
+                    <a href="/success_create.php" class="button button-pink donation-page__donate">
                         DONATE AND CREATE TEAM
                         <span class="sprite icon icon-check-white"></span>
-                    </button>
+                    </a>
                 </form>
                 <div class="go-back donation-page__donate">
                     <a href="/"><span class="sprite icon icon-back"></span>Tap here to go back</a>

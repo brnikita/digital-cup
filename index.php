@@ -18,7 +18,7 @@
         <main class="start-screen-content">
             <section class="start-screen-welcome">
                 <div class="ribbon">
-                    <h3>WELCOME TO THE GAME</h3>
+                    <div class="ribbon__content">WELCOME TO THE GAME</div>
                 </div>
                 <a href="#" class="sprite icon icon-previous start-screen-welcome__previous"></a>
                 <a href="#" class="sprite icon icon-next start-screen-welcome__next"></a>
