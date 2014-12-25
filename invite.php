@@ -10,7 +10,7 @@
 
         <main class="white-screen invite-page">
             <div class="ribbon">
-                <h3>INVITE PLAYER</h3>
+                <div class="ribbon__content">INVITE PLAYER</div>
             </div>
             <section class="white-screen__content">
                 <figure class="user-avatar clearfix">

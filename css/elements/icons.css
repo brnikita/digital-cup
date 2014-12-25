@@ -60,3 +60,15 @@
     width: 27px;
     background-position: -95px 0;
 }
+
+.icon-players {
+    width: 33px;
+    height: 29px;
+    background-position: -96px -59px;
+}
+
+.icon-success {
+    width: 135px;
+    height: 114px;
+    background-position: -147px -52px;
+}

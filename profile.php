@@ -10,7 +10,7 @@
 
         <main class="white-screen profile-page">
             <div class="ribbon">
-                <h3>YOUR PROFILE</h3>
+                <div class="ribbon__content">YOUR PROFILE</div>
             </div>
             <section class="white-screen__content">
                 <form class="pink-form">

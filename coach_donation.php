@@ -10,7 +10,7 @@
 
         <main class="white-screen donation-page">
             <div class="ribbon">
-                <h3>DONATE</h3>
+                <div class="ribbon__content">DONATE</div>
             </div>
             <section class="white-screen__content">
                 <figure class="user-avatar clearfix">

@@ -10,7 +10,7 @@
 
         <main class="white-screen create-team-page">
             <div class="ribbon">
-                <h3>CREATE A TEAM</h3>
+                <div class="ribbon__content">CREATE A TEAM</div>
             </div>
             <section class="white-screen__content">
                 <form class="pink-form">

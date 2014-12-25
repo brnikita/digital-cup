@@ -10,7 +10,7 @@
 
         <main class="white-screen login-page">
             <div class="ribbon">
-                <h3>LOGIN</h3>
+                <div class="ribbon__content">LOGIN</div>
             </div>
             <section class="white-screen__content">
                 <form class="pink-form">
