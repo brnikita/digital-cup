@@ -20,8 +20,10 @@
 @import "pages/start_screen.css";
 @import "pages/login_page.css";
 @import "pages/create_team.css";
-@import "pages/profile.css";
+@import "pages/create_profile.css";
 @import "pages/donation.css";
 @import "pages/invite.css";
 @import "pages/success.css";
 @import "pages/join_team.css";
+@import "pages/suggested_teams.css";
+@import "pages/search-results-page.css";

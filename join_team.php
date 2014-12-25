@@ -28,11 +28,11 @@
             <div class="join-team-page__or">
                 or
             </div>
-            <a href="/player_donation.php" class="button button-pink join-team-page__suggest">SUGGEST A TEAM <span
+            <a href="/suggested_teams.php" class="button button-pink join-team-page__suggest">SUGGEST A TEAM <span
                     class="sprite icon icon-players"></span></a>
 
             <div class="go-back profile-page__go-back">
-                <a href="/"><span class="sprite icon icon-back"></span>Tap here to go back</a>
+                <a href="/search_results.php"><span class="sprite icon icon-back"></span>Tap here to go back</a>
             </div>
         </section>
     </main>

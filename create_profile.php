@@ -7,7 +7,7 @@
 <div class="content js-content">
     <? include('blocks/header.php'); ?>
 
-    <main class="white-screen profile-page">
+    <main class="white-screen create-profile-page">
         <div class="ribbon">
             <div class="ribbon__content">YOUR PROFILE</div>
         </div>
@@ -43,16 +43,16 @@
                     <label for="password">Confirm Password</label>
                     <input type="password" name="confirm_password" id="confirm_password"/>
                 </div>
-                <button type="submit" class="button button-pink profile-page__upload-photo">UPLOAD PHOTO<span
+                <button type="submit" class="button button-pink create-profile-page__upload-photo">UPLOAD PHOTO<span
                         class="sprite icon icon-photo"></span>
                 </button>
             </form>
-            <a href="/player_donation.php" class="button button-black profile-page__make-donation">MAKE A DONATION TO
+            <a href="/player_donation.php" class="button button-black create-profile-page__make-donation">MAKE A DONATION TO
                 JOIN
                 TEAM <span
                     class="sprite icon icon-go"></span></a>
 
-            <div class="go-back profile-page__go-back">
+            <div class="go-back create-profile-page__go-back">
                 <a href="/"><span class="sprite icon icon-back"></span>Tap here to go back</a>
             </div>
         </section>

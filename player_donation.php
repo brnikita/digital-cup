@@ -33,7 +33,7 @@
                 </a>
             </form>
             <div class="go-back donation-page__donate">
-                <a href="/"><span class="sprite icon icon-back"></span>Tap here to go back</a>
+                <a href="/create_profile.php"><span class="sprite icon icon-back"></span>Tap here to go back</a>
             </div>
         </section>
     </main>
