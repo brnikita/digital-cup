@@ -34,7 +34,7 @@
 .icon-check-white {
     height: 27px;
     width: 27px;
-    background-position: -146px -202px;
+    background-position: -147px -202px;
 }
 
 .icon-facebook {
@@ -83,4 +83,40 @@
     background-position: -153px -254px;
     width: 23px;
     height: 21px;
+}
+
+.icon-bat {
+    width: 19px;
+    height: 39px;
+    background-position: -154px -276px;
+}
+
+.icon-bowl {
+    width: 25px;
+    height: 37px;
+    background-position: -154px -316px;
+}
+
+.icon-field {
+    width: 23px;
+    height: 34px;
+    background-position: -154px -353px;
+}
+
+.icon-scoring {
+    width: 24px;
+    height: 31px;
+    background-position: -177px -178px;;
+}
+
+.icon-prizes {
+    width: 31px;
+    height: 31px;
+    background-position: -174px -209px;
+}
+
+.icon-question {
+    width: 31px;
+    height: 31px;
+    background-position: -178px -241px;
 }
