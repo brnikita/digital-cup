@@ -1,0 +1,26 @@
+footer {
+    background-color: #f7f7f7;
+    position: fixed;
+    bottom: 0;
+    height: 90px;
+    width: 640px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    font-family: 'Tahoma Bold';
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-item__title {
+    display: block;
+}

@@ -7,6 +7,12 @@
     height: 87px;
 }
 
+.icon-mini-logo {
+    width: 75px;
+    height: 52px;
+    background-position: 0 -179px;
+}
+
 .icon-big-logo {
     width: 153px;
     height: 137px;
@@ -119,4 +125,16 @@
     width: 31px;
     height: 31px;
     background-position: -178px -241px;
+}
+
+.icon-pink-scoring {
+    width: 34px;
+    height: 44px;
+    background-position: -55px -198px;
+}
+
+.icon-dressing {
+    width: 41px;
+    height: 46px;
+    background-position: 0 -148px;
 }
