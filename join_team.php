@@ -21,7 +21,7 @@
                     <label for="email">Search by email</label>
                     <input type="email" name="email" id="email"/>
                 </div>
-                <button type="submit" class="button button-black profile-page__upload-photo">SEARCH<span
+                <button type="submit" class="button button-black join-team-page__search">SEARCH<span
                         class="sprite icon icon-magnifier"></span>
                 </button>
             </form>
@@ -31,7 +31,7 @@
             <a href="/suggested_teams.php" class="button button-pink join-team-page__suggest">SUGGEST A TEAM <span
                     class="sprite icon icon-players"></span></a>
 
-            <div class="go-back profile-page__go-back">
+            <div class="go-back join-team-page__go-back">
                 <a href="/search_results.php"><span class="sprite icon icon-back"></span>Tap here to go back</a>
             </div>
         </section>

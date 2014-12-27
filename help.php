@@ -30,6 +30,8 @@
                     class="sprite icon icon-go"></span></a>
         </section>
     </main>
+
+    <? include('blocks/footer.php'); ?>
 </div>
 </body>
 </html>

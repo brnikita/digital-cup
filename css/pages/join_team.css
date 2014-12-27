@@ -7,6 +7,14 @@
     padding: 5px 0 28px 0;
 }
 
+.join-team-page__search {
+    margin-top: 20px;
+}
+
 .join-team-page__suggest {
     letter-spacing: 4.3px;
+}
+
+.join-team-page__go-back {
+    margin-top: 30px;
 }

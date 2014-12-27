@@ -1,4 +1,4 @@
-footer {
+.footer-navigation {
     background-color: #f7f7f7;
     position: fixed;
     bottom: 0;
@@ -6,21 +6,60 @@ footer {
     width: 640px;
 }
 
-footer ul {
+.footer-navigation ul {
     list-style: none;
 }
 
-footer li {
+.footer-navigation li {
+    text-align: center;
     float: left;
 }
 
-footer li a {
+.footer-navigation li a {
     font-family: 'Tahoma Bold';
     font-size: 15px;
     color: #000;
     text-decoration: none;
 }
 
-.footer-item__title {
+.footer-navigation__item__title {
     display: block;
+}
+
+.footer-navigation__item-scoreboard {
+    margin: 10px 0 0 33px;
+}
+
+.footer-navigation__item-scoreboard .icon {
+    margin-bottom: 9px;
+}
+
+.footer-navigation__item-dressing {
+    margin: 9px 0 0 68px;
+}
+
+.footer-navigation__item-dressing .icon {
+    margin-bottom: 8px;
+}
+
+.footer-navigation__item-about {
+    margin: 8px 0 0 65px;
+}
+
+.footer-navigation__item-about .icon-mini-logo {
+    margin-left: 4px;
+}
+
+.footer-navigation__item-about .icon-mc-grath {
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+.footer-navigation__item-more {
+    margin: 17px 0 0 80px;
+}
+
+.footer-navigation__item-more .icon {
+    margin-bottom: 15px;
 }

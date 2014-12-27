@@ -9,8 +9,8 @@
 
 .icon-mini-logo {
     width: 75px;
-    height: 52px;
-    background-position: 0 -179px;
+    height: 53px;
+    background-position: 0 -89px;
 }
 
 .icon-big-logo {
@@ -130,11 +130,23 @@
 .icon-pink-scoring {
     width: 34px;
     height: 44px;
-    background-position: -55px -198px;
+    background-position: -55px -197px;
 }
 
 .icon-dressing {
     width: 41px;
     height: 46px;
-    background-position: 0 -148px;
+    background-position: 0 -147px;
+}
+
+.icon-more {
+    background-position: -204px -169px;
+    width: 44px;
+    height: 31px;
+}
+
+.icon-mc-grath {
+    background-position: -205px -201px;
+    width: 56px;
+    height: 15px;
 }
