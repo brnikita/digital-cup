@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'ABOUT MCGRATH FOUNDATION';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/about.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
@@ -9,12 +12,23 @@
 
     <main class="white-screen about-page">
         <div class="ribbon">
-            <div class="ribbon__content">ABOUT MCGRATH FOUNDATION</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
-            <p>A story well known in Australia, Jane and Glenn McGrath’s much-publicised experience with breast cancer led to the formation of what has become one of Australia’s most respected and recognised charities, the McGrath Foundation.</p>
-            <p>Because of their experience came the belief that every family experiencing breast cancer in Australia should have access to the support of a breast care nurse shaping the McGrath Foundation’s mission is to ensure every family experiencing breast cancer in Australia has access to a breast care nurse no matter where they live or their financial situation. The Foundation estimates 150 McGrath Breast Care Nurses are needed to achieve this. Only then, will every family in this situation have access to optimal care.</p>
-            <p>Today, the McGrath Foundation is considered to be one of Australia’s leading breast cancer support organisations, with over 25,000 Australian families supported by our 98 McGrath Breast Care Nurses nationally in the last five years</p>
+            <p>A story well known in Australia, Jane and Glenn McGrath’s much-publicised experience with breast cancer
+                led to the formation of what has become one of Australia’s most respected and recognised charities, the
+                McGrath Foundation.</p>
+
+            <p>Because of their experience came the belief that every family experiencing breast cancer in Australia
+                should have access to the support of a breast care nurse shaping the McGrath Foundation’s mission is to
+                ensure every family experiencing breast cancer in Australia has access to a breast care nurse no matter
+                where they live or their financial situation. The Foundation estimates 150 McGrath Breast Care Nurses
+                are needed to achieve this. Only then, will every family in this situation have access to optimal
+                care.</p>
+
+            <p>Today, the McGrath Foundation is considered to be one of Australia’s leading breast cancer support
+                organisations, with over 25,000 Australian families supported by our 98 McGrath Breast Care Nurses
+                nationally in the last five years</p>
             <a href="/suggested_teams.php" class="button button-black about-page__visit-button">VISIT MCGRATH FOUNDATION <span
                     class="sprite icon icon-monitor"></span></a>
 

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'WELCOME TO THE GAME';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/digital-cup.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -74px; left: 50%; margin-left: -319px; opacity: 0.5;display: none;"></div>
@@ -17,7 +20,7 @@
         <main class="start-screen-content">
             <section class="start-screen-welcome">
                 <div class="ribbon">
-                    <div class="ribbon__content">WELCOME TO THE GAME</div>
+                    <div class="ribbon__content"><? echo $title; ?></div>
                 </div>
                 <a href="#" class="sprite icon icon-previous start-screen-welcome__previous"></a>
                 <a href="#" class="sprite icon icon-next start-screen-welcome__next"></a>

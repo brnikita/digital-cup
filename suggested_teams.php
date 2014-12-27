@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'SUGGESTED TEAMS';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/suggested_teams.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
@@ -9,7 +12,7 @@
 
     <main class="white-screen suggested-teams-page">
         <div class="ribbon">
-            <div class="ribbon__content">SUGGESTED TEAMS</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <figure class="user-avatar clearfix">
@@ -43,7 +46,8 @@
                 </figcaption>
             </figure>
 
-            <a href="/join_team.php" type="submit" class="button button-black suggested-teams-page__more">SUGGEST MORE TEAMS<span
+            <a href="/join_team.php" type="submit" class="button button-black suggested-teams-page__more">SUGGEST MORE
+                TEAMS<span
                     class="sprite icon icon-magnifier"></span>
             </a>
 

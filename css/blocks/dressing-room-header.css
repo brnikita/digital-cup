@@ -1,0 +1,35 @@
+.dressing-room-header {
+    width: 576px;
+    margin: 0 auto;
+    padding-top: 39px;
+    height: 131px;
+}
+
+.dressing-room-header .ribbon__content {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+}
+
+.dressing-room-header__avatar {
+    border: #ee4399 3px solid;
+    -webkit-border-radius: 73px;
+    -moz-border-radius: 73px;
+    border-radius: 73px;
+    width: 146px;
+    height: 146px;
+    overflow: hidden;
+    position: absolute;
+    top: -22px;
+    left: -8px;
+}
+
+.dressing-room-header h1 {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Tahoma Bold';
+    text-align: center;
+    line-height: 77px;
+    padding-left: 9px;
+    letter-spacing: -0.6px;
+}

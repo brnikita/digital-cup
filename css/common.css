@@ -36,6 +36,11 @@ body {
     width: 640px;
 }
 
+.bg-dressing-room {
+    background: url(../images/bg-dressing-room.jpg) no-repeat;
+    background-size: 640px 1037px;
+}
+
 .content-mobile {
     min-height: 100%;
 }

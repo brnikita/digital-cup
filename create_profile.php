@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'YOUR PROFILE';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/join-team.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 50%; margin-left: -320px; opacity: 0.5;display: none;"></div>
@@ -9,7 +12,7 @@
 
     <main class="white-screen create-profile-page">
         <div class="ribbon">
-            <div class="ribbon__content">YOUR PROFILE</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <form class="pink-form">
@@ -47,7 +50,8 @@
                         class="sprite icon icon-photo"></span>
                 </button>
             </form>
-            <a href="/player_donation.php" class="button button-black create-profile-page__make-donation">MAKE A DONATION TO
+            <a href="/player_donation.php" class="button button-black create-profile-page__make-donation">MAKE A
+                DONATION TO
                 JOIN
                 TEAM <span
                     class="sprite icon icon-go"></span></a>
