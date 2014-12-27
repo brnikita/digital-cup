@@ -64,5 +64,5 @@ $(function () {
         $window.on('resize', resizePage);
     }
 
-    //makeResponsive();
+    makeResponsive();
 });

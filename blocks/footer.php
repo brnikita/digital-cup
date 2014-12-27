@@ -13,13 +13,13 @@
             </a>
         </li>
         <li class="footer-navigation__item footer-navigation__item-about">
-            <a href="#">
+            <a href="/about.php">
                 <span class="sprite icon icon-mini-logo"></span>
                 <span class="footer-navigation__item__title">About<span class="sprite icon icon-mc-grath"></span></span>
             </a>
         </li>
         <li class="footer-navigation__item footer-navigation__item-more">
-            <a href="#">
+            <a href="/sidebar.php">
                 <span class="sprite icon icon-more"></span>
                 <span class="footer-navigation__item__title">More</span>
             </a>

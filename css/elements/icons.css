@@ -150,3 +150,27 @@
     width: 56px;
     height: 15px;
 }
+
+.icon-pink-profile {
+    background-position: -98px -99px;
+    width: 46px;
+    height: 46px;
+}
+
+.icon-pink-team {
+    background-position: -47px -150px;
+    width: 50px;
+    height: 44px;
+}
+
+.icon-pink-help {
+    background-position: -210px -216px;
+    width: 46px;
+    height: 46px;
+}
+
+.icon-pink-trophy {
+    background-position: -2px -197px;
+    width: 45px;
+    height: 46px;
+}

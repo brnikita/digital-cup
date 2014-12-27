@@ -13,6 +13,7 @@
 
 /*Blocks*/
 @import "blocks/ribbon.css";
+@import "blocks/sidebar.css";
 @import "blocks/header.css";
 @import "blocks/footer.css";
 
