@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'SEARCH RESULTS';
+include('blocks/head.php');
+?>
 <body>
 <div class="content js-content">
     <? include('blocks/header.php'); ?>
 
     <main class="white-screen search-results-page">
         <div class="ribbon">
-            <div class="ribbon__content">SEARCH RESULTS</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <figure class="user-avatar clearfix">

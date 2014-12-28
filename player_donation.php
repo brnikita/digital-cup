@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'DONATE';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/coach-donation.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 50%; margin-left: -320px; opacity: 0.5;display: none;"></div>
@@ -9,7 +12,7 @@
 
     <main class="white-screen donation-page">
         <div class="ribbon">
-            <div class="ribbon__content">DONATE</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <figure class="user-avatar clearfix">

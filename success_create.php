@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'SUCCESS';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/success_create.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
@@ -9,7 +12,7 @@
 
     <main class="white-screen success-page">
         <div class="ribbon">
-            <div class="ribbon__content">SUCCESS</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <div class="success-page__well-done">

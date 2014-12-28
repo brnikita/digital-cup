@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'YOUR PROFILE';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/your-profile.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
@@ -11,7 +14,7 @@
 
     <main class="white-screen profile-page">
         <div class="ribbon">
-            <div class="ribbon__content">YOUR PROFILE</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <figure class="user-avatar">

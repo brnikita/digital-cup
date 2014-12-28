@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<? include('blocks/head.php'); ?>
+<?
+$title = 'LOGIN';
+include('blocks/head.php');
+?>
 <body>
 <div
     style="background: url('images/stuff/login.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 50%; margin-left: -320px; opacity: 0.5;display: none;"></div>
@@ -9,7 +12,7 @@
 
     <main class="white-screen login-page">
         <div class="ribbon">
-            <div class="ribbon__content">LOGIN</div>
+            <div class="ribbon__content"><? echo $title; ?></div>
         </div>
         <section class="white-screen__content">
             <form class="pink-form">
