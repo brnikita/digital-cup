@@ -41,7 +41,7 @@ include('blocks/head.php');
                             <h2>Andrew Welstead</h2>
 
                             <h3>Last logged in:
-                                <time>21 Jan</time>
+                                <span>21 Jan</span>
                             </h3>
                         </div>
                         <div class="profile-mini-signs__bonus">200</div>
@@ -61,7 +61,7 @@ include('blocks/head.php');
                             <h2>John La Motta</h2>
 
                             <h3>Last logged in:
-                                <time>Today</time>
+                                <span>Today</span>
                             </h3>
                         </div>
                         <div class="profile-mini-signs__bonus">153</div>
@@ -81,7 +81,7 @@ include('blocks/head.php');
                             <h2>Shane Warne</h2>
 
                             <h3>Last logged in:
-                                <time>Yesterday</time>
+                                <span>Yesterday</span>
                             </h3>
                         </div>
                         <div class="profile-mini-signs__bonus">8</div>
