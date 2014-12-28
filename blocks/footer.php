@@ -7,7 +7,7 @@
             </a>
         </li>
         <li class="footer-navigation__item footer-navigation__item-dressing">
-            <a href="#">
+            <a href="/home.php">
                 <span class="sprite icon icon-dressing"></span>
                 <span class="footer-navigation__item__title">Dressing Room</span>
             </a>

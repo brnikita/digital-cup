@@ -4,7 +4,7 @@
             <a href="/profile.php">Your Profile <span class="sprite icon icon-pink-profile"></span></a>
         </li>
         <li class="sidebar__item">
-            <a href="#">Dressing Room <span class="sprite icon icon-dressing"></span></a>
+            <a href="/home.php">Dressing Room <span class="sprite icon icon-dressing"></span></a>
         </li>
         <li class="sidebar__item">
             <a href="#">Team Management <span class="sprite icon icon-pink-team"></span></a>

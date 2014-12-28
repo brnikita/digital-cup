@@ -1,4 +1,5 @@
 .sidebar {
+    height: 888px;
     margin-top: 9px;
     background: rgba(0, 0, 0, 0.5);
 }
@@ -46,6 +47,14 @@
     display: block;
     text-decoration: none;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 276px;
     letter-spacing: 4px;
+}
+
+.content-mobile .sidebar {
+    height: 762px;
+}
+
+.content-mobile .sidebar__log-out {
+    margin-top: 150px;
 }

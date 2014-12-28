@@ -20,6 +20,7 @@
     font-size: 15px;
     color: #000;
     text-decoration: none;
+    display: block;
 }
 
 .footer-navigation__item__title {

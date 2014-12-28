@@ -57,3 +57,8 @@ button.button {
     color: #fff;
     background-color: #ee4399;
 }
+
+.button-white {
+    color: #ee4399;
+    background-color: #fff;
+}

@@ -10,7 +10,7 @@ include('blocks/head.php');
 <div class="content bg-dressing-room js-content">
     <? include('blocks/dressing_room_header.php'); ?>
 
-    <main>
+    <main class="home-page">
         <section class="donations-level">
             <div class="donations-level__content">
                 <h5>YOUR DONATIONS</h5>
@@ -26,13 +26,15 @@ include('blocks/head.php');
             </div>
         </section>
         <ul class="play-levels">
-            <li class="clearfix">
-                <div class="sprite icon icon-big-batting play-levels__icon"></div>
+            <li class="clearfix play-levels__batting">
+                <div class="play-levels__icon">
+                    <span class="sprite icon icon-big-batting"></span>
+                </div>
                 <div class="play-levels__points">
                     <h3>PLAY BATTING</h3>
 
-                    <div>
-                        <ul class="play-levels-points">
+                    <div class="play-levels__points__rating clearfix">
+                        <ul class="clearfix">
                             <li></li>
                             <li></li>
                             <li></li>
@@ -52,13 +54,59 @@ include('blocks/head.php');
                     </em>
                 </a>
             </li>
+            <li class="clearfix play-levels__bowling">
+                <div class="play-levels__icon">
+                    <span class="sprite icon icon-big-bowling"></span>
+                </div>
+                <div class="play-levels__points">
+                    <h3>PLAY BOWLING</h3>
+
+                    <div class="play-levels__points__rating clearfix">
+                        <ul class="clearfix">
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="play-levels__continue">
+                    <span class="sprite icon icon-white-next"></span>
+                </a>
+            </li>
+            <li class="clearfix play-levels__fielding">
+                <div class="play-levels__icon">
+                    <span class="sprite icon icon-big-fielding"></span>
+                </div>
+                <div class="play-levels__points">
+                    <h3>PLAY FIELDING</h3>
+
+                    <div class="play-levels__points__rating clearfix">
+                        <ul class="clearfix">
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="play-levels__continue">
+                    <span class="sprite icon icon-white-next"></span>
+                </a>
+            </li>
         </ul>
-        <a href="#">TEAM MANAGEMENT <span class="sprite icon icon-list"></span></a>
-        <a href="#">VIEW MESSAGES
-            <span class="sprite icon icon-message">
+        <section class="home-page__buttons">
+            <a class="button button-pink" href="#">TEAM MANAGEMENT <span class="sprite icon icon-list"></span></a>
+            <a class="button button-white" href="#">VIEW MESSAGES
+            <span class="sprite icon icon-middle-message">
                 <span class="">5</span>
             </span>
-        </a>
+            </a>
+        </section>
     </main>
 
     <? include('blocks/footer.php'); ?>
