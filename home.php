@@ -100,8 +100,8 @@ include('blocks/head.php');
             </li>
         </ul>
         <section class="home-page__buttons">
-            <a class="button button-pink" href="#">TEAM MANAGEMENT <span class="sprite icon icon-list"></span></a>
-            <a class="button button-white" href="#">VIEW MESSAGES
+            <a class="button button-pink" href="/team_management.php">TEAM MANAGEMENT <span class="sprite icon icon-list"></span></a>
+            <a class="button button-white" href="/messages.php">VIEW MESSAGES
             <span class="sprite icon icon-middle-message">
                 <span class="">5</span>
             </span>

@@ -1,7 +1,7 @@
 <footer class="footer-navigation">
     <ul class="clearfix">
         <li class="footer-navigation__item footer-navigation__item-scoreboard">
-            <a href="#">
+            <a href="/scoreboard.php">
                 <span class="footer-navigation__item__icon sprite icon icon-pink-scoring"></span>
                 <span class="footer-navigation__item__title">Scoreboard</span>
             </a>
