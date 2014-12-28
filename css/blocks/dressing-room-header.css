@@ -2,9 +2,13 @@
     width: 576px;
     margin: 0 auto;
     padding-top: 39px;
-    height: 131px;
     position: relative;
     font-family: 'Tahoma Bold';
+    height: 131px;
+}
+
+.dressing-room-header.dressing-room-header-simple {
+    height: 45px;
 }
 
 .dressing-room-header .ribbon__content {

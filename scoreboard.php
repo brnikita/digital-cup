@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?
-$title = 'TEAM MANAGEMENT';
+$title = 'SCOREBOARD';
 include('blocks/head.php');
 ?>
 <body>
