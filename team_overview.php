@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <?
-$title = 'TEAM MANAGEMENT';
+$title = 'TEAM OVERVIEW';
 include('blocks/head.php');
 ?>
 <body>
 <div
-    style="background: url('images/stuff/team_management.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
+    style="background: url('images/stuff/team_overview.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
 <div class="content bg-dressing-room js-content">
     <? include('blocks/dressing_room_header.php'); ?>
 
-    <main class="management-page">
+    <main class="overview-page">
         <section class="donations-level">
             <div class="donations-level__content">
                 <h5>TEAM DONATIONS</h5>
@@ -25,10 +25,7 @@ include('blocks/head.php');
                 <div class="donations-level__start">$0</div>
             </div>
         </section>
-        <section class="management-page__content">
-            <a href="/invite.php" type="submit" class="button button-pink">INVITE PLAYER
-                <span class="sprite icon icon-plus"></span>
-            </a>
+        <section class="overview-page__content">
             <ul>
                 <li>
                     <div class="profile-mini-signs clearfix">
