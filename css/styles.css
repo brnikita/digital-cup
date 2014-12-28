@@ -19,6 +19,7 @@
 @import "blocks/donations-level.css";
 @import "blocks/dressing-room-header.css";
 @import "blocks/footer.css";
+@import "blocks/players_list.css";
 
 /*Pages*/
 @import "pages/start_screen.css";
@@ -41,3 +42,4 @@
 @import "pages/overview.css";
 @import "pages/player_details.css";
 @import "pages/messages.css";
+@import "pages/scoreboard.css";

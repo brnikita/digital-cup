@@ -1,0 +1,49 @@
+.scoreboard-page {
+    padding-top: 43px;
+}
+
+.scoreboard-page .players-list-underline {
+    padding-top: 34px;
+}
+
+.scoreboard-switcher {
+    font-size: 22px;
+    line-height: 44px;
+    font-family: 'Tahoma Bold';
+    width: 552px;
+    margin: 0 auto;
+    list-style: none;
+    border: #ee4399 2px solid;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+.scoreboard-switcher li {
+    float: left;
+    width: 50%;
+}
+
+.scoreboard-switcher span,
+.scoreboard-switcher a {
+    display: block;
+    height: 44px;
+    color: #fff;
+    text-align: center;
+}
+
+.scoreboard-switcher span {
+    background-color: #ee4399;
+}
+
+.scoreboard-switcher a {
+    text-decoration: none;
+}
+
+.scoreboard-page .go-back {
+    margin-top: 13px;
+}
+
+.content-mobile .scoreboard-page .go-back {
+    margin-top: 0;
+    height: 150px;
+}

@@ -3,6 +3,8 @@
     margin: 0 auto;
     padding-top: 39px;
     height: 131px;
+    position: relative;
+    font-family: 'Tahoma Bold';
 }
 
 .dressing-room-header .ribbon__content {
@@ -29,9 +31,23 @@
 .dressing-room-header h1 {
     color: #fff;
     font-size: 32px;
-    font-family: 'Tahoma Bold';
     text-align: center;
-    line-height: 77px;
+    padding-top: 24px;
     padding-left: 9px;
     letter-spacing: -0.6px;
+}
+
+.dressing-room-header h3 {
+    font-size: 22px;
+    color: #ee4399;
+    padding: 11px 0 0 163px;
+    letter-spacing: 4.5px;
+}
+
+.dressing-room-header__amount {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    right: 39px;
+    top: 66px;
 }
