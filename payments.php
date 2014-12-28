@@ -12,13 +12,13 @@ include('blocks/head.php');
 
     <main class="payments-page">
         <section class="payments-page__profile clearfix">
-            <div class="payments-page__profile__content clearfix">
-                <div class="payments-page__profile__avatar">
-                <span class="profile-avatar-mini">
+            <div class="payments-page__profile__content profile-mini clearfix">
+                <div class="profile-mini__avatar">
+                <span class="avatar-mini">
                     <img src="images/avatars/coach.jpg" width="59" height="59" alt="User's avatar">
                 </span>
                 </div>
-                <div class="payments-page__profile__title">
+                <div class="profile-mini__title">
                     <h2>Andrew Welstead</h2>
 
                     <h3>$250 TOTAL DONATIONS</h3>

@@ -129,14 +129,3 @@ body {
     line-height: 43px;
     letter-spacing: 2.7px;
 }
-
-.profile-avatar-mini {
-    overflow: hidden;
-    display: inline-block;
-    border: #ee4399 3px solid;
-    -webkit-border-radius: 32px;
-    -moz-border-radius: 32px;
-    border-radius: 32px;
-    width: 59px;
-    height: 59px;
-}

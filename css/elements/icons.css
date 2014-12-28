@@ -228,3 +228,27 @@
     height: 23px;
     background-position: -184px -389px;
 }
+
+.icon-plus {
+    width: 27px;
+    height: 27px;
+    background-position: -184px -413px;
+}
+
+.icon-mini-batting {
+    width: 32px;
+    height: 52px;
+    background-position: -183px -440px;
+}
+
+.icon-mini-bowling {
+    width: 30px;
+    height: 30px;
+    background-position: -213px -305px;
+}
+
+.icon-mini-fielding {
+    width: 33px;
+    height: 45px;
+    background-position: -214px -335px;
+}
