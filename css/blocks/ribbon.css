@@ -12,16 +12,17 @@
     line-height: 41px;
     font-size: 22px;
     letter-spacing: 5.6px;
-    width: 569px;
     padding-left: 7px;
     font-family: 'Tahoma Bold';
+    width: 575px;
+    box-sizing: border-box;
 }
 
 .ribbon:before,
 .ribbon:after {
     position: absolute;
     background: url('../../images/sprite.png') no-repeat;
-    background-size: 1000px 1000px;
+    background-size: 686px 491px;
     width: 67px;
     height: 51px;
     content: '';

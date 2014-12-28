@@ -23,7 +23,7 @@ body {
 
 .sprite {
     background: url('../images/sprite.png') no-repeat;
-    background-size: 1000px 1000px;
+    background-size: 686px 491px;
 }
 
 .wrapper {
@@ -128,4 +128,15 @@ body {
 .user-avatar figcaption h3 {
     line-height: 43px;
     letter-spacing: 2.7px;
+}
+
+.profile-avatar-mini {
+    overflow: hidden;
+    display: inline-block;
+    border: #ee4399 3px solid;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    width: 59px;
+    height: 59px;
 }

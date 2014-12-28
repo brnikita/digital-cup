@@ -9,6 +9,8 @@
     position: relative;
     text-transform: uppercase;
     letter-spacing: 4.4px;
+    text-align: left;
+    padding-left: 164px;
 }
 
 .dressing-room-header__avatar {
