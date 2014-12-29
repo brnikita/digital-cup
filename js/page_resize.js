@@ -1,9 +1,11 @@
 'use strict';
 
 $(function () {
-    var $window = $(window),
-        $wrapper,
-        $content = $('.js-content');
+    var viewAreaHeight = 1036,
+        $content = $('.js-content'),
+        $contentBg = $('.js-content-bg'),
+        $footer = $('.js-footer'),
+        $window = $(window);
 
     /**
      * Function returns true if it's a mobile device
@@ -17,22 +19,23 @@ $(function () {
     }
 
     /**
-     * Function makes page's width equal of window width (for mobiles and tablets)
-     * or height equal of window height (for desktop devices)
+     * Function makes element's size relevant to windows size
      *
      * @function
-     * @name resizePage
+     * @name resizeElement
+     * @param {jQuery} $element
      * @returns {undefined}
      */
-    function resizePage() {
-        var contentHeight = $content.height(),
+    function resizeElement($element) {
+        var $wrapper = $element.parent('.js-wrapper'),
+            elementHeight = $element.height(),
             windowHeight = $window.height(),
-            scale = windowHeight / contentHeight;
+            scale = windowHeight / viewAreaHeight;
 
         $wrapper.css({
-            height: contentHeight * scale
+            height: elementHeight * scale
         });
-        $content.css({
+        $element.css({
             '-ms-transform': 'scale(' + scale + ')',
             '-o-transform': 'scale(' + scale + ')',
             '-moz-transform': 'scale(' + scale + ')',
@@ -49,6 +52,9 @@ $(function () {
      * @returns {undefined}
      */
     function makeResponsive() {
+        var $contentWrapper = $('<div>', {'class': 'content-wrapper js-wrapper'}),
+            $contentBgWrapper = $('<div>', {'class': 'content-bg-wrapper js-wrapper'}),
+            $footerWrapper = $('<div>', {'class': 'footer-wrapper js-wrapper'});
 
         if (isMobile()) {
             $content.addClass('content-mobile');
@@ -56,12 +62,19 @@ $(function () {
         }
 
         $content.addClass('content-desktop');
-        $wrapper = $('<div>', {'class': 'wrapper js-wrapper'});
-        $content.wrap($wrapper);
-        //Wrap method uses copy of $wrapper
-        $wrapper = $('.js-wrapper');
-        resizePage();
-        $window.on('resize', resizePage);
+        $contentBg.addClass('content-bg-desktop');
+        $footer.addClass('footer-desktop');
+        $content.wrap($contentWrapper);
+        $contentBg.wrap($contentBgWrapper);
+        $footer.wrap($footerWrapper);
+        resizeElement($content);
+        resizeElement($contentBg);
+        resizeElement($footer);
+        $window.on('resize', function () {
+            resizeElement($content);
+            resizeElement($contentBg);
+            resizeElement($footer);
+        });
     }
 
     makeResponsive();

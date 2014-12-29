@@ -5,8 +5,7 @@ $title = 'TEAM MANAGEMENT';
 include('blocks/head.php');
 ?>
 <body>
-<div
-    style="background: url('images/stuff/player-details.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
+<div class="content-bg bg-dressing-room js-content-bg"></div>
 <div class="content bg-dressing-room js-content">
     <? include('blocks/dressing_room_header.php'); ?>
 
@@ -31,7 +30,7 @@ include('blocks/head.php');
                 <div class="profile-mini-signs__bonus__sign">
                     <span class="sprite icon icon-crown"></span>
                 </div>
-                <div class="profile-mini-signs__bonus__title">SET AS<br />CAPTAIN</div>
+                <div class="profile-mini-signs__bonus__title">SET AS<br/>CAPTAIN</div>
             </div>
         </div>
         <a href="/success_create.php" class="button button-pink">
@@ -48,7 +47,7 @@ include('blocks/head.php');
         </div>
     </main>
 
-    <? include('blocks/footer.php'); ?>
 </div>
+<? include('blocks/footer.php'); ?>
 </body>
 </html>

@@ -1,9 +1,31 @@
+.footer-wrapper {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-wrapper .footer-navigation {
+    position: static;
+    margin: 0 auto;
+}
+
 .footer-navigation {
     background-color: #f7f7f7;
     position: fixed;
     bottom: 0;
     height: 90px;
     width: 640px;
+    left: 0;
+}
+
+.footer-desktop {
+    -ms-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top ;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
 }
 
 .footer-navigation ul {

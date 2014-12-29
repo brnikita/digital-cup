@@ -5,10 +5,7 @@ $title = 'YOUR PROFILE';
 include('blocks/head.php');
 ?>
 <body>
-<div
-    style="background: url('images/stuff/your-profile.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
-<div
-    style="background: url('images/stuff/footer.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -117px; left: 0; opacity: 0.5;display: none;"></div>
+<div class="content-bg js-content-bg"></div>
 <div class="content js-content">
     <? include('blocks/header.php'); ?>
 
@@ -34,7 +31,7 @@ include('blocks/head.php');
         </section>
     </main>
 
-    <? include('blocks/footer.php'); ?>
 </div>
+<? include('blocks/footer.php'); ?>
 </body>
 </html>

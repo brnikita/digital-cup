@@ -26,13 +26,35 @@ body {
     background-size: 686px 491px;
 }
 
-.wrapper {
+.content-wrapper {
     overflow: hidden;
 }
 
-.content {
+.content-bg-wrapper {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.content-bg-wrapper .content-bg {
+    position: static;
+    margin: 0 auto;
+}
+
+.content-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
     background: url(../images/bg.jpg) no-repeat;
     background-size: 640px 1200px;
+    width: 640px;
+    height: 1036px;
+}
+
+.content {
     width: 640px;
 }
 
@@ -45,9 +67,17 @@ body {
     min-height: 100%;
 }
 
+.content-bg-desktop {
+    -ms-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+}
+
 .content-desktop {
     margin: 0 auto;
-    height: 1036px;
+    min-height: 1036px;
     -ms-transform-origin: center top;
     -moz-transform-origin: center top;
     -o-transform-origin: center top;

@@ -1,4 +1,4 @@
-<footer class="footer-navigation">
+<footer class="footer-navigation js-footer">
     <ul class="clearfix">
         <li class="footer-navigation__item footer-navigation__item-scoreboard">
             <a href="/scoreboard.php">

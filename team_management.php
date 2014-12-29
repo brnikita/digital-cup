@@ -5,9 +5,8 @@ $title = 'TEAM MANAGEMENT';
 include('blocks/head.php');
 ?>
 <body>
-<div
-    style="background: url('images/stuff/team_management.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
-<div class="content bg-dressing-room js-content">
+<div class="content-bg bg-dressing-room js-content-bg"></div>
+<div class="content js-content">
     <? include('blocks/dressing_room_header.php'); ?>
 
     <main class="management-page">
@@ -97,7 +96,7 @@ include('blocks/head.php');
         </div>
     </main>
 
-    <? include('blocks/footer.php'); ?>
 </div>
+<? include('blocks/footer.php'); ?>
 </body>
 </html>

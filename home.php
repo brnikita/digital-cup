@@ -5,8 +5,7 @@ $title = 'dressing room';
 include('blocks/head.php');
 ?>
 <body>
-<div
-    style="background: url('images/stuff/home.jpg'); width: 640px; height: 1136px; position: absolute; z-index: 100; top: -100px; left: 0; opacity: 0.5;display: none;"></div>
+<div class="content-bg bg-dressing-room js-content-bg"></div>
 <div class="content bg-dressing-room js-content">
     <? include('blocks/dressing_room_header.php'); ?>
 
@@ -100,7 +99,8 @@ include('blocks/head.php');
             </li>
         </ul>
         <section class="home-page__buttons">
-            <a class="button button-pink" href="/team_management.php">TEAM MANAGEMENT <span class="sprite icon icon-list"></span></a>
+            <a class="button button-pink" href="/team_management.php">TEAM MANAGEMENT <span
+                    class="sprite icon icon-list"></span></a>
             <a class="button button-white" href="/messages.php">VIEW MESSAGES
             <span class="sprite icon icon-middle-message">
                 <span class="">5</span>
@@ -108,8 +108,7 @@ include('blocks/head.php');
             </a>
         </section>
     </main>
-
-    <? include('blocks/footer.php'); ?>
 </div>
+<? include('blocks/footer.php'); ?>
 </body>
 </html>
