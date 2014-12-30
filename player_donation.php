@@ -5,7 +5,7 @@ $title = 'DONATE';
 include('blocks/head.php');
 ?>
 <body>
-<div class="content-bg bg-dressing-room js-content-bg"></div>
+<div class="content-bg js-content-bg"></div>
 <div class="content js-content">
     <? include('blocks/header.php'); ?>
 

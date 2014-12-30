@@ -5,8 +5,8 @@ $title = 'WELCOME TO THE GAME';
 include('blocks/head.php');
 ?>
 <body>
-<div class="content-bg js-content-bg"></div>
-<div class="content bg-start js-content">
+<div class="content-bg bg-start js-content-bg"></div>
+<div class="content js-content">
     <header class="start-screen-header clearfix">
         <a href="/" class="start-screen-header__logo sprite icon icon-big-logo"></a>
 

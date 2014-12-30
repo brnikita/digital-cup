@@ -2,6 +2,10 @@
 
 }
 
+.create-team-page .white-screen__content{
+    padding-bottom: 24px;
+}
+
 .create-team-page .pink-form {
     padding-top: 13px
 }

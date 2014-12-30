@@ -1,11 +1,14 @@
 .messages-page {
-    width: 526px;
-    margin: 0 auto;
-    padding-top: 47px;
     font-family: 'Tahoma Bold';
 }
 
+.messages-page .dressing-room-content {
+    padding-top: 133px;
+}
+
 .messages-list {
+    width: 526px;
+    margin: 0 auto;
 }
 
 .messages-list__item {
@@ -39,6 +42,5 @@
 }
 
 .content-mobile .messages-page .go-back {
-    height: 150px;
     margin-top: 0;
 }

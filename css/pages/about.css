@@ -24,3 +24,7 @@
 .about-page .go-back {
     margin-top: 29px;
 }
+
+.content-desktop .about-page .go-back {
+    height: 50px;
+}

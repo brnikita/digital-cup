@@ -1,5 +1,12 @@
 .scoreboard-page {
-    padding-top: 43px;
+}
+
+.scoreboard-page .dressing-room-content {
+    padding-top: 131px;
+}
+
+.scoreboard-page.scoreboard-out .dressing-room-content {
+    padding-top: 20px;
 }
 
 .scoreboard-page .players-list-underline {
@@ -45,5 +52,4 @@
 
 .content-mobile .scoreboard-page .go-back {
     margin-top: 0;
-    height: 150px;
 }

@@ -1,6 +1,9 @@
 .player-details-page {
-    width: 500px;
+}
+
+.player-details-page__content {
     margin: 0 auto;
+    width: 500px;
     padding-top: 55px;
 }
 

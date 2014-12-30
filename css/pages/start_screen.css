@@ -1,6 +1,7 @@
-.content.bg-start {
+.bg-start {
     background: url(../../images/bg-start.jpg) no-repeat;
     background-size: 640px 1039px;
+    height: 1039px;
 }
 
 .start-screen-header {
